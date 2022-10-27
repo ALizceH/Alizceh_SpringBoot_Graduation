@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "http_pool.max_total",
+      "type": "java.lang.String",
+      "description": "Description for http_pool.max_total."
+  }
+] }

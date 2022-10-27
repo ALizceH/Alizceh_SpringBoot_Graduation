@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fad1257-deff-40fe-92c9-7baf5d6672fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2G9qYiItZm79FQKg7zuwlUAVaWt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue/src/assets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\Alizceh_SpringBoot_Vue_GraduationProject\SpringBoot_GraduationProject\vue\src\assets" />
+      <recent name="D:\Java\Alizceh_SpringBoot_Vue_GraduationProject\SpringBoot_GraduationProject\vue\src\views" />
+      <recent name="D:\Java\Alizceh_SpringBoot_Vue_GraduationProject\SpringBoot_GraduationProject\src\main\resources\static\pic" />
+      <recent name="D:\Java\SpringBoot_GraduationProject\src\main\resources\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\Alizceh_SpringBoot_Vue_GraduationProject\SpringBoot_GraduationProject\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootGraduationProjectApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootGraduationProjectApplicationTests.getSensorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_GraduationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alizceh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alizceh" />
+      <option name="MAIN_CLASS_NAME" value="com.alizceh.SpringBootGraduationProjectApplicationTests" />
+      <option name="METHOD_NAME" value="getSensorMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootGraduationProjectApplicationTests.getUserByUserAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_GraduationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alizceh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alizceh" />
+      <option name="MAIN_CLASS_NAME" value="com.alizceh.SpringBootGraduationProjectApplicationTests" />
+      <option name="METHOD_NAME" value="getUserByUserAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootGraduationProjectApplicationTests.test111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_GraduationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alizceh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alizceh" />
+      <option name="MAIN_CLASS_NAME" value="com.alizceh.SpringBootGraduationProjectApplicationTests" />
+      <option name="METHOD_NAME" value="test111" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootGraduationProjectApplicationTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_GraduationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alizceh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alizceh" />
+      <option name="MAIN_CLASS_NAME" value="com.alizceh.SpringBootGraduationProjectApplicationTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootGraduationProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="SpringBoot_GraduationProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alizceh.SSMP_GP_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vueServe" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.test3" />
+      <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.getUserByUserAccount" />
+      <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.getSensorMessage" />
+      <item itemvalue="npm.vueServe" />
+      <item itemvalue="Spring Boot.SpringBootGraduationProjectApplication" />
+      <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.test111" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootGraduationProjectApplication" />
+        <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.test111" />
+        <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.getSensorMessage" />
+        <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.getUserByUserAccount" />
+        <item itemvalue="JUnit.SpringBootGraduationProjectApplicationTests.test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fad1257-deff-40fe-92c9-7baf5d6672fc" name="Default Changelist" comment="" />
+      <created>1665811198995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665811198995</updated>
+      <workItem from="1665811201041" duration="2722000" />
+      <workItem from="1665816684662" duration="17919000" />
+      <workItem from="1665921894759" duration="13139000" />
+      <workItem from="1665968010973" duration="26532000" />
+      <workItem from="1666008213662" duration="1359000" />
+      <workItem from="1666010508693" duration="22000" />
+      <workItem from="1666010609852" duration="602000" />
+      <workItem from="1666011465709" duration="83000" />
+      <workItem from="1666015680645" duration="1521000" />
+      <workItem from="1666055750971" duration="922000" />
+      <workItem from="1666058048639" duration="691000" />
+      <workItem from="1666073033755" duration="17730000" />
+      <workItem from="1666144402529" duration="3819000" />
+      <workItem from="1666160372257" duration="164000" />
+      <workItem from="1666160567650" duration="5420000" />
+      <workItem from="1666166065218" duration="385000" />
+      <workItem from="1666166717371" duration="5240000" />
+      <workItem from="1666176371404" duration="9416000" />
+      <workItem from="1666225679571" duration="9647000" />
+      <workItem from="1666235420866" duration="31254000" />
+      <workItem from="1666312604564" duration="18598000" />
+      <workItem from="1666366834356" duration="1568000" />
+      <workItem from="1666417611202" duration="8819000" />
+      <workItem from="1666426459861" duration="3092000" />
+      <workItem from="1666438965623" duration="10536000" />
+      <workItem from="1666496274392" duration="977000" />
+      <workItem from="1666499702996" duration="1334000" />
+      <workItem from="1666601908286" duration="15928000" />
+      <workItem from="1666657933703" duration="10059000" />
+      <workItem from="1666687006301" duration="76000" />
+      <workItem from="1666749474178" duration="1425000" />
+      <workItem from="1666787640813" duration="10158000" />
+      <workItem from="1666834205975" duration="6520000" />
+      <workItem from="1666848101338" duration="1014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/../../../Users/Alizceh/Downloads/Compressed/pure-design-master/pure-design-master/src/main/java/com/qingge/springboot/entity/Role.java</url>
+          <line>27</line>
+          <properties field="serialVersionUID" class="com.qingge.springboot.entity.Role" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

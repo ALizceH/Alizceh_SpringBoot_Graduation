@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/element.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div style="width: 500px; margin: 100px auto; border: 1px solid #ccc">
+            <div style="width: 100%; height: 100px; color: steelblue; font-size: 30px;line-height: 100px; text-align: center">欢迎注册</div>
+            <div style="margin-top: 25px; width: 100%; height: 350px; text-align: center">
+                <input v-model="user.userAccount" type="text" style="border: 1px solid #ccc; height: 40px; padding: 10px; width: 60%" placeholder="请输入账号">
+                <input v-model="user.userPassword" type="password" style="border: 1px solid #ccc; height: 40px; padding: 10px; width: 60%; margin-top: 20px" placeholder="请输入密码">
+                <input v-model="user.userPostbox" type="text" style="border: 1px solid #ccc; height: 40px; padding: 10px; width: 60%;  margin-top: 20px" placeholder="请输入邮箱">
+                <button @click="register" style="height: 40px; padding: 10px; width: 60%; margin-top: 25px; background-color: steelblue; color: white">注册</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/element.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+    <script>
+        new Vue({
+            el: "#wrapper",
+            data: {
+                user: {}
+            },
+            methods: {
+                register() {
+                    if (!this.user.userAccount) {
+                        this.$message({
+                            message: "请输入用户名",
+                            type: "error"
+                        });
+                        return;
+                    }
+                    if (!this.user.userPassword) {
+                        this.$message({
+                            message: "请输入密码",
+                            type: "error"
+                        });
+                        return;
+                    }
+                    axios.post("/users/register",this.user).then((res)=>{
+                        if(res.data.flag){
+                            this.$message.success("注册成功");
+                            setTimeout(()=>{
+                                location.href="/login.html"
+                            })
+                        }else{
+                            this.$message.error("注册失败");
+                        }
+                    })
+                    // $.ajax({
+                    //     url: "/users/register",
+                    //     type: "POST",
+                    //     contentType: "application/json",
+                    //     data: JSON.stringify(this.user)
+                    // }).then(res => {
+                    //     if (res.code === '0') {
+                    //         this.$message({
+                    //             message: "注册成功",
+                    //             type: "success"
+                    //         });
+                    //         localStorage.setItem("user", JSON.stringify(res.data));
+                    //         setTimeout(() => {
+                    //             location.href= "/index.html"
+                    //         }, 1000)
+                    //     } else {
+                    //         this.$message({
+                    //             message: res.msg,
+                    //             type: "error"
+                    //         })
+                    //     }
+                    // })
+                }
+            }
+        })
+    </script>
+</body>
+</html>

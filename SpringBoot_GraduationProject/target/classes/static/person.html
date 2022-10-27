@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/element.css">
+</head>
+<body style="background-color: #ddd">
+<div id="wrapper">
+    <!--        头部-->
+    <el-row style="height: 50px; background-color: black; line-height: 50px; color: white;">
+        <el-col :span="22"><div style="font-size: 30px; margin-left: 20px;"><a href="index.html">LOGO</a></div></el-col>
+        <el-col :span="2" style="text-align: right">
+            <el-dropdown>
+                <el-button type="primary" style="margin-right: 10px">{{user.username}}</el-button>
+                <el-dropdown-menu slot="dropdown">
+                    <a href="person.html" style="display:inline-block; padding: 5px 0; width: 100px; text-align: center; color: black">个人信息</a>
+                    <a @click="logout" href="#" style="display:block; width: 100px;  text-align: center; color: black">退出</a>
+                </el-dropdown-menu>
+            </el-dropdown>
+
+        </el-col>
+    </el-row>
+    <el-row style="margin-top: 100px">
+        <el-col :span="8" :offset="8">
+            <el-card style="width: 100%">
+                <div slot="header" class="clearfix">
+                    <span style="font-size: 24px">个人信息</span>
+                </div>
+                <div style="font-size: 18px">
+                    <div style="padding: 10px 50px">姓名：{{user.userAccount}}</div>
+                    <div style="padding: 10px 50px">邮箱：{{user.userPostbox}}</div>
+                </div>
+            </el-card>
+
+        </el-col>
+    </el-row>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/element.js"></script>
+<script>
+    new Vue({
+        el: "#wrapper",
+        data: {
+            user: {}
+        },
+        created() {
+            this.user = JSON.parse(localStorage.getItem("user"));
+        },
+        methods: {
+            logout() {
+                localStorage.removeItem("user");
+                location.href = "login.html";
+            },
+        }
+    })
+</script>
+</body>
+</html>
